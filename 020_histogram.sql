@@ -26,6 +26,7 @@ BEGIN
 		ORDER BY
 			bin
 		;';
+	--cleanup
 	EXECUTE 'DROP TABLE bintmp CASCADE;';
 END
 $BODY$
