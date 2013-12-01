@@ -14,16 +14,12 @@ Use an SQL statement to call the function:
     SELECT create_histogram(dataname, datacol, start, stop, spacing, outtab);
 
 where:
-	dataname: table with the data
-	datacol: columnname you want the histogram from
-
-	start: starting value of the histogram
-
-	stop: stop value of the histogram
-
-	spacing: binwidth
-
-	outtab: name for the output table
+*dataname: table with the data
+*datacol: columnname you want the histogram from
+*start: starting value of the histogram
+*stop: stop value of the histogram
+*spacing: binwidth
+*outtab: name for the output table
 
 Please note that the dataname, datacol and outtab need to have quotes around them because they are strings.
 
