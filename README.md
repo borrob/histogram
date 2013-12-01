@@ -15,7 +15,6 @@ Use an SQL statement to call the function:
 
 where:
 	dataname: table with the data
-
 	datacol: columnname you want the histogram from
 
 	start: starting value of the histogram
